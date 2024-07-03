@@ -1,0 +1,12 @@
+{
+    "email" : "Email",
+    "password" : "Password",
+    "language" : "Language",
+    "rememberMe" : "Remember me",
+    "logIn" : "Log In",
+    "errorMessageEmail" : "Email is required",
+    "errorMessageEmailValid" : "Please enter valid email",
+    "errorMessagePassword" : "Password is required.",
+    "errorMessagePasswordPattern" : "At least 1 lower case character, 1 uppercase character, 1 special character, 1 Numeric, Password minimum length is 8 and maximum is 15 characters",
+    "forgotPassword" : "Forgot password?"
+}

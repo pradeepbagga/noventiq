@@ -1,0 +1,123 @@
+.logo {
+    min-width: 700px;
+    margin-bottom: 2em;
+    text-align: center;
+
+    @media (max-width: 768px) { 
+        min-width: auto;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.container.form-container {
+    max-width: 500px;
+    background-color: #fff;
+    border: 2px solid #a2a3a4;
+    padding: 0.75em;
+
+    @media (max-width: 768px) { 
+        max-width: 90%;
+
+        .col-hide {
+            display: none;
+        }
+    }
+
+    select {
+        max-width: 80%;
+        @media (max-width: 768px) { 
+            max-width: 100%;
+        }
+    }
+
+    .row {
+        margin: 10px 0;
+
+        .error-message {
+            margin-top: 5px;
+        }
+    }
+
+    .col {
+        position: relative;
+
+        input.form-control {
+            padding-left: 2.5em;
+        }
+        input.form-control#password {
+            padding-right: 2.5em;
+        }
+
+        i.bi {
+            position: absolute;
+            left: 25px;
+            top: 7px;
+        }
+        i.bi.bi-eye {
+            left: auto;
+            right: 20px;
+        }
+    }
+
+    .col-rememberMe {
+        display: flex;
+        align-items: center;
+
+        input.form-check-input {
+            visibility: hidden;
+        }
+
+        span {
+            display: inline-block;
+            margin-right: 0.3em;
+        }
+        i.bi {
+            position: relative;
+            font-size: 1.3em;
+            left: auto;
+            top: auto;
+            margin-top: 5px;
+            color: #b8b7b7;
+        }
+        .bi.bi-toggle-on {
+            color: #000;
+        }
+        .rememberMe-text {
+            font-size: 0.8em;
+        }
+    }
+
+    .form-label {
+        margin: 5px 0 0 0;
+    }
+
+    .forgot-password {
+        font-size: 0.8em;
+
+        span {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}
+
+.signin-button-row {
+    text-align: center;
+    margin-top: 10px;
+
+    .btn.btn-primary {
+        background-color: #343434;
+        border:0;
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+}
+
+.marginTop0 {
+    margin-top: 0;
+}
+.marginBottom0 {
+    margin-bottom: 0;
+}
